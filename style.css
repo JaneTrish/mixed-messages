@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+  background-image: url('DSC_0001.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #f2e9e4;
+}
+
+.btn-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#generator {
+  padding: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: transparent;
+}
+
+#generator:focus {
+  outline: none;
+  box-shadow: none;
+}
+#generator:active {
+  outline: none;
+  box-shadow: none;
+}
+#generator:focus:active {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 668px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 668px) and (max-width: 896px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 896px) and (max-width: 1024px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    padding-top: 7rem;
+    font-size: 2rem;
+  }
+}
